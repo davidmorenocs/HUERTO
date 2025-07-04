@@ -1,0 +1,35 @@
+
+img {
+  width: 100%;
+  height: auto;
+}
+.zoom-area {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background: rgba(255,0,0,0.4);
+  cursor: pointer;
+}
+.zoom-box {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  max-height: 90%;
+  background: #fff;
+  border: 2px solid #000;
+  display: none;
+  z-index: 1000;
+  overflow: auto;
+}
+.zoom-box img {
+  width: 100%;
+  height: auto;
+}
+.close-btn {
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
