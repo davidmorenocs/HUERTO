@@ -35,8 +35,8 @@ img {
 }
 .hotspot {
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
   transform: translate(-50%, -50%);
   cursor: pointer;
   user-select: none;
