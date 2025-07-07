@@ -41,3 +41,9 @@ img {
   cursor: pointer;
   user-select: none;
 }
+.volver {
+  position: absolute;
+  top: 20px;        /* distancia desde arriba */
+  left: 20px;       /* o usa right: 20px para la esquina derecha */
+  z-index: 1000;    /* asegúrate de que esté por encima de otros elementos */
+}
