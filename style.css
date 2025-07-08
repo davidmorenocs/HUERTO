@@ -50,10 +50,14 @@ img {
   z-index: 1000;    /* asegúrate de que esté por encima de otros elementos */
 }
 h1 {
-    color: #2c3e50;
-    font-family: Arial, sans-serif;
-    font-size: 36px;
-    text-align: right;
-    text-transform: uppercase;
-    margin-top: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  color: #2c3e50;
+  font-family: Arial, sans-serif;
+  font-size: 100px;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 10px;
 }
